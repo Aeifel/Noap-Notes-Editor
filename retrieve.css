@@ -1,0 +1,130 @@
+header{
+    background-color: grey;
+    pointer-events: none;
+}
+
+body {
+    font-family: 'Sans-Serif';
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between ;
+    height:60px;
+}
+
+.menu{
+    background:linear-gradient( 90deg, #2c3e50,#fd746c);
+}
+
+#parent, #head, #Date_Created{
+    display: flex;
+    margin: 0 auto;
+}       
+
+#Date_Created{  
+    width: 80%;
+    height : 2em ;
+    font-family: 'Sans-Serif';
+} 
+
+button{
+    margin: 0.6em;
+    cursor: pointer;
+    border: 2px solid black;
+    pointer-events: all;
+    font-size: large;
+    min-width: 2.5em;
+    width: auto;
+    font-family: 'Sans-Serif';
+}
+
+select{
+    margin-left: 1em;  
+    font-size: large;
+    pointer-events: all;
+    border: nine;
+    font-family: 'Sans-Serif';
+}
+
+#size-select{
+    margin-left: -0.25em;
+}
+
+
+button[type="submit"]{
+    background-color: red;
+}
+
+.but {
+    border-radius: 2em;
+}
+
+#u, #i, #link, #olist, #super, #sub,  #c, #r, #j {
+    margin-left: -0.9em;
+}
+
+#fggcolor, #formatting{
+    margin-left: -0.28em;
+}
+
+#save{
+    width: auto;
+    margin-left: 10.5em;
+    background-color: orange;
+}
+
+#save:hover{
+    background-color: greenyellow;
+}
+
+input {
+    width: auto;
+}
+#div{
+    box-sizing: border-box;
+    border: 1px black solid ;
+    width: 80%;
+    min-height: 50em;
+    height: auto;
+    padding: 0.5em 1em;
+    display: inline-block;
+    white-space: pre-wrap;
+    overflow: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin: 0 auto;
+    background: white;
+}
+
+#title{
+    box-sizing: border-box;
+    border: 1px black solid ;
+    width: 80%;
+    min-height: 2.5em;
+    height: auto;
+    padding: 0.5em 1em;
+    display: inline-block;
+    white-space: pre-wrap;
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 0 auto ;
+    background: white;
+}
+img{
+    size: 20px;
+}
+#update{
+    width: auto;
+}
+#update:hover{
+    background: yellow;
+}
+
+#new:hover, #back:hover{
+    background: yellow;
+}
+
+.menu{
+    width: 100%;
+}
